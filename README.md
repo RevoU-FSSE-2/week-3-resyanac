@@ -49,7 +49,7 @@ Im using 3 features based on 2 weeks class.
    The grid are assymetrical whenever you move the mouse, it changes from grayscale to original filter. Lastly i gave the image carousel using HTML and CSS only.
   
 <h1>Result</h1>
-Here is the result of my simple GOT theme for 3rd week assigntment. <a href="https://resyana-cahyanita-w2.netlify.app/"rel="nofollow">Click here</a> to see my website using netfily to deploy.
+Here is the result of my simple GOT theme for 3rd week assigntment. <a href="https://resyanac-week-3.netlify.app/"rel="nofollow">Click here</a> to see my website using netfily to deploy.
 
 ![Screen Shot 2023-06-30 at 20 09 21](https://github.com/RevoU-FSSE-2/week-3-resyanac/assets/135514670/45f578d0-7bae-4f9d-b5d7-1d492a36b9f9)
 ![Screen Shot 2023-06-30 at 20 10 04](https://github.com/RevoU-FSSE-2/week-3-resyanac/assets/135514670/57659cf6-838b-4a16-84a7-2ae8109e40ac)
