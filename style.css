@@ -585,26 +585,29 @@ footer{
 
     /* section got-photo */
 
-
-
-#got-photos .grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 16px;
-    grid-auto-rows: 240px 240px 240px;
-  }
-  
-  #got-photos .grid-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .grid-container #item-1 {
-    grid-column: 1 / 2 span;
-    grid-row: 1;
-  }
-
+    #got-photos .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 240px);
+      }
+      #got-photos .grid-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .grid-container #item-1 {
+        grid-row: initial;
+        grid-column: span 2;
+      }
+      .grid-container #item-2,
+      .grid-container #item-3 {
+        grid-row: initial;
+        grid-column: initial;
+      }
+      .grid-container #item-4,
+      .grid-container #item-5{
+        grid-column: initial;
+        grid-row: 3;
+      }
 
 /* about section */
     .container{
